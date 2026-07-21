@@ -13,6 +13,7 @@ because i believe everyone should be able to learn maths for free, and github of
 ### a quick declaration of tool used to create this
 this list is what i share by default when somebody asks for my setup.
 with a bit added that shows that i did use latex.
+
 	1. hardware 
 	    1.1 pc
 	        1.1.1 cpu: 7800x3d
