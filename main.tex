@@ -1,0 +1,40 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm} % <-- This fixes the undefined proof environment, nya~!
+
+\title{Sanity Check: The Irrationality of $\sqrt{2}$}
+\author{A Sleepy Catgirl Researcher}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+i'm testing if everything works
+
+\section{The Proof}
+We wish to prove that $\sqrt{2}$ is an irrational number.
+
+\begin{proof}
+Suppose for the sake of contradiction that $\sqrt{2}$ is rational. Then it can be expressed as a fraction in lowest terms:
+\[
+\sqrt{2} = \frac{a}{b}
+\]
+where $a$ and $b$ are integers with no common factors other than $1$, and $b \neq 0$. Squaring both sides gives:
+\[
+2 = \frac{a^2}{b^2} \implies a^2 = 2b^2
+\]
+This implies that $a^2$ is even, which means $a$ must also be even. Let $a = 2k$ for some integer $k$. Substituting this back in:
+\[
+(2k)^2 = 2b^2 \implies 4k^2 = 2b^2 \implies b^2 = 2k^2
+\]
+This means $b^2$ is also even, so $b$ must be even as well. However, this contradicts our initial assumption that $a$ and $b$ share no common factors! Therefore, $\sqrt{2}$ cannot be rational!
+\[
+\sqrt{2} \notin \mathbb{Q} \quad \blacksquare
+\]
+\end{proof}
+
+\end{document}
